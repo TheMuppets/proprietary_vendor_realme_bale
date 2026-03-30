@@ -15,6 +15,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bale/proprietary/odm/etc/PanelChaplin/P_3_AB714_dsc_cmd_mode_panel_2_max.odf:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/P_3_AB714_dsc_cmd_mode_panel_2_max.odf \
     vendor/realme/bale/proprietary/odm/etc/PanelChaplin/P_3_AB714_dsc_cmd_mode_panel_HS:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/P_3_AB714_dsc_cmd_mode_panel_HS \
     vendor/realme/bale/proprietary/odm/etc/PanelChaplin/panelchaplin:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/panelchaplin \
+    vendor/realme/bale/proprietary/odm/etc/aac_richtap.config:$(TARGET_COPY_OUT_ODM)/etc/aac_richtap.config \
     vendor/realme/bale/proprietary/odm/etc/acdbdata/Audio_Parameter_Version.txt:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Audio_Parameter_Version.txt \
     vendor/realme/bale/proprietary/odm/etc/acdbdata/FTM/acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/FTM/acdb_cal.acdb \
     vendor/realme/bale/proprietary/odm/etc/acdbdata/FTM/workspaceFileXml.qwsp:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/FTM/workspaceFileXml.qwsp \
@@ -1423,6 +1424,7 @@ PRODUCT_PACKAGES += \
     libPanelChaplin_vendor \
     libRGBC \
     libSonyIMX471RmscLibrary \
+    libaacvibrator \
     libaidenoiser \
     libaidenoiserv2 \
     libarcsoft_triple_sat \
