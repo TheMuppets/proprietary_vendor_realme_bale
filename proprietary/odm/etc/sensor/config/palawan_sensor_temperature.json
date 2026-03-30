@@ -1,0 +1,19 @@
+{
+    "config":{
+        "hw_platform": ["MTP", "QRD"],
+        "soc_id": ["519", "557", "536", "577", "632", "614"]
+    },
+
+    "default_sensors": {
+        "owner": "suid",
+
+    ".sensor_temperature": {
+        "owner": "suid",
+        ".attr_1": {
+            "owner": "suid",
+            "id": { "type": "int", "ver": "1", "data": "0" },
+            "val": { "type": "str", "ver": "1", "data": "icm4x6xx" }
+        }
+    }
+  }
+}
