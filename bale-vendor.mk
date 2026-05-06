@@ -894,6 +894,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/bale/proprietary/odm/etc/sensor/config/lux_aod.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lux_aod.json \
     vendor/realme/bale/proprietary/odm/etc/sensor/config/oplus_back_tap.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/oplus_back_tap.json \
     vendor/realme/bale/proprietary/odm/etc/sensor/config/oplus_backclip_detect.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/oplus_backclip_detect.json \
+    vendor/realme/bale/proprietary/odm/etc/sensor/config/oplus_car_motion.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/oplus_car_motion.json \
     vendor/realme/bale/proprietary/odm/etc/sensor/config/oplus_lay.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/oplus_lay.json \
     vendor/realme/bale/proprietary/odm/etc/sensor/config/oplus_rotation_detect.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/oplus_rotation_detect.json \
     vendor/realme/bale/proprietary/odm/etc/sensor/config/palawan_mtp_ak09918_cover.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/palawan_mtp_ak09918_cover.json \

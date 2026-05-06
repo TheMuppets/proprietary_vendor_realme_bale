@@ -136,6 +136,7 @@
 				</default>
 				<!-- 进入以下列表apk的特定界面的新的参数 -->
 				<!--包名列表中，某个包里面某个activity的配置，仍是基于外层的default配置增量修改，而非包名的default修改 -->
+				<!-- 老版本安兔兔界面名称 -->
 				<activity pkg_name="com.antutu.ABenchMark" activity_name="com.example.benchmark.ui.testscreen.activity.TouchAreaActivity">
 					<!--关闭小于预设边缘比例和宽度乘积阈值，进行滑动抑制 -->
 					<command name="edge_sliding_matched_support"	value="mod para_V2 edge_sliding_matched_support:0"/>
@@ -147,6 +148,27 @@
 					<command name="finger_hold_matched_ver_support"	value="mod para_V2 finger_hold_matched_ver_support:0"/>
 				</activity>
 				<activity pkg_name="com.antutu.ABenchMark" activity_name="com.example.benchmark.ui.testscreen.activity.MultiTouchActivity">
+					<!--关闭小于预设边缘比例和宽度乘积阈值，进行滑动抑制 -->
+					<command name="edge_sliding_matched_support"	value="mod para_V2 edge_sliding_matched_support:0"/>
+					<!-- 竖屏消点方案，针对检测apk关闭 -->
+					<command name="long_eliminate_point_support"	value="mod para_V2 long_eliminate_point_support:0"/>
+					<!-- 竖屏不同侧抓握方案，针对检测apk关闭 -->
+					<command name="finger_hold_differ_size_support"	value="mod para_V2 finger_hold_differ_size_support:0"/>
+					<!-- 竖屏同一侧抓握消点方案，针对检测apk关闭 -->
+					<command name="finger_hold_matched_ver_support"	value="mod para_V2 finger_hold_matched_ver_support:0"/>
+				</activity>
+				<!-- 新版本安兔兔界面名称 -->
+				<activity pkg_name="com.antutu.ABenchMark" activity_name="com.android.module.screentesting.activity.TouchAreaActivity">
+					<!--关闭小于预设边缘比例和宽度乘积阈值，进行滑动抑制 -->
+					<command name="edge_sliding_matched_support"	value="mod para_V2 edge_sliding_matched_support:0"/>
+					<!-- 竖屏消点方案，针对检测apk关闭 -->
+					<command name="long_eliminate_point_support"	value="mod para_V2 long_eliminate_point_support:0"/>
+					<!-- 竖屏不同侧抓握方案，针对检测apk关闭 -->
+					<command name="finger_hold_differ_size_support"	value="mod para_V2 finger_hold_differ_size_support:0"/>
+					<!-- 竖屏同一侧抓握消点方案，针对检测apk关闭 -->
+					<command name="finger_hold_matched_ver_support"	value="mod para_V2 finger_hold_matched_ver_support:0"/>
+				</activity>
+				<activity pkg_name="com.antutu.ABenchMark" activity_name="com.android.module.screentesting.activity.MultiTouchActivity">
 					<!--关闭小于预设边缘比例和宽度乘积阈值，进行滑动抑制 -->
 					<command name="edge_sliding_matched_support"	value="mod para_V2 edge_sliding_matched_support:0"/>
 					<!-- 竖屏消点方案，针对检测apk关闭 -->
