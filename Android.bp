@@ -16111,6 +16111,7 @@ cc_prebuilt_library_shared {
                 "vendor.oplus.hardware.cammidasservice-V1-ndk",
                 "libmidasserviceintf_aidl",
                 "vendor.oplus.hardware.camera.aon-service-impl",
+                "vendor.oplus.hardware.performance-V1-ndk_platform",
                 "libc",
                 "libm",
                 "libdl",
